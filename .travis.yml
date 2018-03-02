@@ -26,6 +26,7 @@ before_script:
 cache:
   directories:
   - $HOME/CACHE
+  - $HOME/CACHE
 dist: precise
 env:
 - MODULES_TO_SKIP=\!aws-java-sdk-osgi MAVEN_OPTS=-XX:MaxPermSize=256m
